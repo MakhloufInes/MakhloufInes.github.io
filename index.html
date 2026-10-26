@@ -1,0 +1,377 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ines Makhlouf — Data Science & IA</title>
+  <meta name="description" content="Portfolio d'Ines Makhlouf, étudiante en Master Data Science & Big Data à Nabeul : machine learning, pipelines de données, IA générative et applications web.">
+  <meta property="og:title" content="Ines Makhlouf — Data Science & IA">
+  <meta property="og:description" content="Des données brutes aux décisions : machine learning, big data, IA générative.">
+  <meta property="og:image" content="assets/ines.jpeg">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='7' fill='%230E6B70'/><circle cx='11' cy='20' r='4' fill='%23F4F6F3'/><circle cx='21' cy='11' r='4' fill='%23E9A23B'/></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script>
+    try { var t = localStorage.getItem('theme'); if (t === 'dark' || t === 'light') document.documentElement.setAttribute('data-theme', t); } catch (e) {}
+  </script>
+</head>
+<body>
+  <a class="skip" href="#projets">Aller au contenu</a>
+
+  <header class="nav">
+    <a class="nav-name" href="#top">Ines Makhlouf</a>
+    <nav aria-label="Sections">
+      <a href="#projets">Projets</a>
+      <a href="#parcours">Parcours</a>
+      <a href="#competences">Compétences</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button type="button" class="theme-toggle" id="theme-toggle" aria-label="Passer en mode sombre" aria-pressed="false" title="Changer de thème">
+      <svg class="icon-sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+      <svg class="icon-moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+    </button>
+    <a class="btn btn-small" href="assets/Ines_Makhlouf_CV.pdf" download>Télécharger le CV</a>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-text">
+        <p class="hero-kicker">Bonjour, je suis</p>
+        <h1>Ines Makhlouf</h1>
+        <p class="hero-role">Data scientist junior · Étudiante en Master Data Science &amp; Big Data</p>
+        <p class="hero-lead">
+          Je conçois des solutions analytiques de bout en bout : exploration, modélisation,
+          mise en production. Python, machine learning, big data et IA générative,
+          avec le goût du produit fini qui tourne vraiment.
+        </p>
+        <div class="hero-actions">
+          <a class="btn" href="#projets">Voir mes projets</a>
+          <a class="btn btn-outline" href="assets/Ines_Makhlouf_CV.pdf" download>Télécharger le CV</a>
+        </div>
+        <ul class="hero-links">
+          <li><a href="https://github.com/MakhloufInes" target="_blank" rel="me noopener">GitHub</a></li>
+          <li><a href="https://www.linkedin.com/in/makhlouf-ines" target="_blank" rel="me noopener">LinkedIn</a></li>
+          <li><a href="mailto:ines.mf55@gmail.com">ines.mf55@gmail.com</a></li>
+          <li>Nabeul, Tunisie</li>
+        </ul>
+      </div>
+      <div class="hero-photo">
+        <img src="assets/ines.jpeg" alt="Portrait d'Ines Makhlouf" width="640" height="640">
+      </div>
+    </section>
+
+    <section class="facts" aria-label="En bref">
+      <div><strong>Machine learning</strong><span>scikit-learn, TensorFlow, PyTorch</span></div>
+      <div><strong>Big data &amp; cloud</strong><span>Spark, AWS Glue, Microsoft Fabric</span></div>
+      <div><strong>IA générative</strong><span>Hugging Face, Claude, OpenAI</span></div>
+      <div><strong>Développement web</strong><span>React, Next.js, Node.js</span></div>
+    </section>
+
+    <section class="section" id="projets">
+      <div class="section-head">
+        <h2>Projets</h2>
+        <p>Du notebook à l'application déployée. Les dépôts sont ouverts.</p>
+      </div>
+      <div class="projects-grid">
+
+      <article class="project featured">
+        <div class="project-meta">
+          <time>2026</time>
+          <span>SaaS · Machine learning</span>
+        </div>
+        <div class="project-body">
+          <h3>GreenFair Advisor</h3>
+          <p class="project-tagline">Plateforme d'analyse prédictive environnementale par pays, prédictions jusqu'en 2050.</p>
+          <p>
+            Un notebook Google Colab transformé en application web publique. Pipeline complet de
+            préparation et de modélisation, quatre modèles entraînés (Random Forest, régression
+            linéaire, K-Means pour segmenter les pays, Ridge temporelle), détection automatique des
+            tendances, comparaison multi-pays et recommandations générées par Gemini.
+          </p>
+          <ul class="stack">
+            <li>Python</li><li>scikit-learn</li><li>JavaScript</li><li>Gemini API</li><li>GitHub Pages</li>
+          </ul>
+        </div>
+        <div class="project-links">
+          <a href="https://github.com/MakhloufInes/greenfair-dashboard" target="_blank" rel="noopener">Dépôt dashboard</a>
+          <a href="https://github.com/MakhloufInes/green" target="_blank" rel="noopener">Dépôt modèles</a>
+        </div>
+      </article>
+
+      <article class="project">
+        <div class="project-meta">
+          <time>2025</time>
+          <span>SaaS · NLP</span>
+        </div>
+        <div class="project-body">
+          <h3>LUA — Learn, Understand, Act</h3>
+          <p class="project-tagline">Collecte et analyse des retours clients avec un pipeline NLP et un chatbot décisionnel.</p>
+          <p>
+            Stage de fin d'études chez Maison du Web. Extraction automatique d'insights avec
+            Hugging Face, interrogation des données en langage naturel, tableaux de bord Metabase
+            pour suivre les KPIs clients.
+          </p>
+          <ul class="stack">
+            <li>Hugging Face</li><li>Transformers</li><li>React</li><li>Metabase</li>
+          </ul>
+        </div>
+        <div class="project-links">
+          <a href="https://github.com/MakhloufInes/luafront" target="_blank" rel="noopener">Dépôt frontend</a>
+        </div>
+      </article>
+
+      <article class="project">
+        <div class="project-meta">
+          <time>2026</time>
+          <span>Plateforme web</span>
+        </div>
+        <div class="project-body">
+          <h3>Leaders Open AI Future Makers</h3>
+          <p class="project-tagline">Plateforme du hackathon de Leaders University : inscriptions, équipes, mentors, jury.</p>
+          <p>
+            Next.js 15 en TypeScript strict, Prisma et PostgreSQL, authentification, files de
+            tâches, déploiement Docker Compose derrière Caddy avec procédures de sauvegarde et
+            de purge des données personnelles.
+          </p>
+          <ul class="stack">
+            <li>Next.js</li><li>TypeScript</li><li>PostgreSQL</li><li>Docker</li>
+          </ul>
+        </div>
+        <div class="project-links">
+          <a href="https://github.com/MakhloufInes/future-makers-platform" target="_blank" rel="noopener">Dépôt</a>
+        </div>
+      </article>
+
+      <article class="project">
+        <div class="project-meta">
+          <time>2026</time>
+          <span>Site vitrine</span>
+        </div>
+        <div class="project-body">
+          <h3>Solen Digital</h3>
+          <p class="project-tagline">Site multilingue en six langues, généré statiquement, globe 3D en page d'accueil.</p>
+          <p>
+            Trente pages produites par un générateur Python à partir d'un fichier de contenu
+            unique. HTML, CSS et JavaScript sans framework, Three.js pour le globe.
+          </p>
+          <ul class="stack">
+            <li>HTML / CSS</li><li>JavaScript</li><li>Three.js</li><li>Python</li>
+          </ul>
+        </div>
+        <div class="project-links">
+          <a href="https://github.com/MakhloufInes/solen-digital" target="_blank" rel="noopener">Dépôt</a>
+        </div>
+      </article>
+
+      <article class="project">
+        <div class="project-meta">
+          <time>2025</time>
+          <span>Machine learning</span>
+        </div>
+        <div class="project-body">
+          <h3>Segmentation de clients</h3>
+          <p class="project-tagline">200 clients d'un centre commercial segmentés par K-Means, cinq combinaisons de variables comparées.</p>
+          <p>
+            Évaluation avec Silhouette, Davies-Bouldin et Calinski-Harabasz, réduction PCA,
+            visualisations radar et bulles. Meilleure combinaison : revenu et score de dépense,
+            silhouette de 0,55.
+          </p>
+          <ul class="stack">
+            <li>scikit-learn</li><li>PCA</li><li>Matplotlib</li><li>Seaborn</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="project">
+        <div class="project-meta">
+          <time>2025</time>
+          <span>Big data</span>
+        </div>
+        <div class="project-body">
+          <h3>Analyse prédictive des ventes</h3>
+          <p class="project-tagline">100 000 transactions sur sept ans pour repérer les catégories à forte croissance.</p>
+          <p>
+            Traitement distribué avec Spark, HDFS et Hive, nettoyage et déduplication, calcul du
+            taux de croissance annuel composé par catégorie, restitution dans Grafana.
+            Cosmétiques et fournitures de bureau ressortent comme moteurs de croissance.
+          </p>
+          <ul class="stack">
+            <li>Apache Spark</li><li>HDFS</li><li>Hive</li><li>Grafana</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="project">
+        <div class="project-meta">
+          <time>2025</time>
+          <span>Cloud · MLOps</span>
+        </div>
+        <div class="project-body">
+          <h3>Solution analytique sur Microsoft Fabric</h3>
+          <p class="project-tagline">De l'ingestion dans OneLake au tableau de bord, avec suivi des modèles dans MLflow.</p>
+          <p>
+            Centralisation des données, exploration et feature engineering dans Synapse Data
+            Science, versioning et déploiement des modèles, tableaux de bord intégrant les prévisions.
+          </p>
+          <ul class="stack">
+            <li>Microsoft Fabric</li><li>OneLake</li><li>MLflow</li><li>Power BI</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="project">
+        <div class="project-meta">
+          <time>2025</time>
+          <span>Statistiques · R</span>
+        </div>
+        <div class="project-body">
+          <h3>Notes des produits e-commerce</h3>
+          <p class="project-tagline">Impact du prix, de la catégorie et de la marque sur les notes de 2 000 produits.</p>
+          <p>
+            Nettoyage avec dplyr, analyses descriptives et comparatives, application Shiny avec
+            ggplot2 et plotly. Aucune corrélation significative : la conclusion documente les
+            limites du jeu de données et propose comment enrichir la collecte.
+          </p>
+          <ul class="stack">
+            <li>R</li><li>dplyr</li><li>ggplot2</li><li>Shiny</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="project">
+        <div class="project-meta">
+          <time>2025</time>
+          <span>Data engineering</span>
+        </div>
+        <div class="project-body">
+          <h3>Pipelines ETL serverless avec AWS Glue</h3>
+          <p class="project-tagline">Workshop : crawlers, jobs de transformation et Data Catalog connectés à S3, Athena et Redshift.</p>
+          <ul class="stack">
+            <li>AWS Glue</li><li>S3</li><li>Athena</li><li>Redshift</li>
+          </ul>
+        </div>
+      </article>
+      </div>
+    </section>
+
+    <section class="section" id="parcours">
+      <div class="section-head">
+        <h2>Parcours</h2>
+        <p>Expériences et formation, du plus récent au plus ancien.</p>
+      </div>
+
+      <ol class="timeline">
+        <li>
+          <time>Janv. 2026</time>
+          <div>
+            <h3>GreenFair Advisor</h3>
+            <p class="where">Projet personnel, mis en ligne</p>
+            <p>Conception, modélisation et déploiement d'une plateforme SaaS d'analyse prédictive environnementale.</p>
+          </div>
+        </li>
+        <li>
+          <time>Juil. 2025 – Févr. 2026</time>
+          <div>
+            <h3>Développeuse web full stack</h3>
+            <p class="where">Ritchess, Northland (Pays-Bas), à distance</p>
+            <p>Application de réservation de taxis de luxe au sein d'une équipe internationale distribuée. Modules réservation, chauffeurs et clients, conception et intégration d'APIs REST, coordination avec le client et les autres développeurs.</p>
+          </div>
+        </li>
+        <li>
+          <time>Janv. – Juin 2025</time>
+          <div>
+            <h3>Stage de fin d'études, analyse de données</h3>
+            <p class="where">Maison du Web, Nabeul</p>
+            <p>Plateforme LUA : pipeline NLP, chatbot décisionnel, tableaux de bord Metabase et présentation des recommandations aux parties prenantes.</p>
+          </div>
+        </li>
+        <li>
+          <time>2025 – en cours</time>
+          <div>
+            <h3>Mastère en Data Science et Big Data</h3>
+            <p class="where">Leaders University, Nabeul</p>
+          </div>
+        </li>
+        <li>
+          <time>2022 – 2025</time>
+          <div>
+            <h3>Licence appliquée en multimédia et développement web</h3>
+            <p class="where">Institut Supérieur des Études Technologiques de Nabeul</p>
+          </div>
+        </li>
+        <li>
+          <time>2022</time>
+          <div>
+            <h3>Baccalauréat en sciences expérimentales</h3>
+            <p class="where">Beni Khiar, Nabeul</p>
+          </div>
+        </li>
+      </ol>
+    </section>
+
+    <section class="section" id="competences">
+      <div class="section-head">
+        <h2>Compétences</h2>
+        <p>Ce que j'utilise régulièrement, par domaine.</p>
+      </div>
+      <div class="skills">
+        <div class="skill-group">
+          <h3>Machine learning et deep learning</h3>
+          <p>scikit-learn, TensorFlow, PyTorch, K-Means, PCA, analyse exploratoire, feature engineering, MLflow</p>
+        </div>
+        <div class="skill-group">
+          <h3>Big data et cloud</h3>
+          <p>Apache Spark, HDFS, Hive, ETL, AWS Glue, Microsoft Fabric, OneLake</p>
+        </div>
+        <div class="skill-group">
+          <h3>NLP et IA générative</h3>
+          <p>Hugging Face, Transformers, fine-tuning de LLM, Claude, Codex, GitHub Copilot, OpenAI</p>
+        </div>
+        <div class="skill-group">
+          <h3>Programmation</h3>
+          <p>Python, R, Java, PHP, JavaScript, TypeScript</p>
+        </div>
+        <div class="skill-group">
+          <h3>Données et visualisation</h3>
+          <p>SQL, MySQL, PostgreSQL, MongoDB, Firebase, Metabase, Grafana, ggplot2, plotly, Shiny</p>
+        </div>
+        <div class="skill-group">
+          <h3>Web et méthodes</h3>
+          <p>Node.js, Express, React, Next.js, APIs REST, UML, Git et GitHub, Scrum, Figma</p>
+        </div>
+      </div>
+      <p class="certs">
+        Certifications : AWS Cloud Quest Cloud Practitioner, Certified Encryption and Cryptography Beginners (CECB).
+      </p>
+    </section>
+
+    <section class="section contact" id="contact">
+      <div class="contact-box">
+        <h2>Travaillons ensemble</h2>
+        <p>
+          Je cherche un environnement technique exigeant où la donnée et l'IA sont au cœur
+          des décisions. Stage, alternance ou premier poste : écrivez-moi.
+        </p>
+        <div class="hero-actions">
+          <a class="btn" href="mailto:ines.mf55@gmail.com">Envoyer un e-mail</a>
+          <a class="btn btn-outline" href="assets/Ines_Makhlouf_CV.pdf" download>Télécharger le CV</a>
+        </div>
+        <ul class="contact-list">
+          <li><a href="https://github.com/MakhloufInes" target="_blank" rel="me noopener">github.com/MakhloufInes</a></li>
+          <li><a href="https://www.linkedin.com/in/makhlouf-ines" target="_blank" rel="me noopener">LinkedIn</a></li>
+          <li><a href="tel:+21654412267">+216 54 412 267</a></li>
+          <li>Nabeul, Tunisie</li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Ines Makhlouf, 2026. Site statique, sans traqueur.</p>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
